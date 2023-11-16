@@ -3,7 +3,7 @@ interface Props {
   event: Event;
 }
 
-interface Event {
+export interface Event {
   id: number;
   category: string;
   title: string;
